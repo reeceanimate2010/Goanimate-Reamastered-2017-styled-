@@ -114,8 +114,8 @@ module.exports = function (req, res, url) {
                     </ul>
                 </li>
                 <li>
-				<a class="hidden-sm hidden-md hidden-lg" href="/v/videomaker">Make a Video</a>
-				<span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/v/videomaker">Make a Video</a></span>
+				<a class="hidden-sm hidden-md hidden-lg" href="/videomaker">Make a Video</a>
+				<span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/videomaker">Make a Video</a></span>
                 </li>
             </ul>
         </div>
@@ -124,7 +124,7 @@ module.exports = function (req, res, url) {
 		<div id="video-page">
     <input type="hidden" name="ct" value="ZGuIheohj78KogqqFMVEXQI7GASGGcS1dC1znbdZzlmaL96D6rGzqkdpEZ6YLctCdKfwSELdjFOjhwPI2Nflra0ZYdoejDwiNMviXYgFgvpZlbs5uzh6vT2Wjhfwxd_dHWNLq1QyRYEy3N99m+bD6BKqofDaJfcCemDYIm1LKlIBmZCzvyQudYFVBT7pWBPc9ZOLTvvI+ynHo1xcbKMZQatab_0Q6zyozNZ52ZrLUJ8ZWYLLe4">
     <div class="background">
-        <div class="thumbnail-container" style="background-image:url('http://localhost/movie_thumbs/m-6.png')">
+        <div class="thumbnail-container" style="background-image:url('/movie_thumbs/m-1.png')">
             <div class="thumbnail-overlay"></div>
         </div>
         <div class="container">

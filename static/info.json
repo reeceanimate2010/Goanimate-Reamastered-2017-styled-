@@ -2,14 +2,14 @@
 	"GET": {
 		"/index.html": {
 			"headers": {
-				"Location": "/html/list.html"
+				"Location": "/dashboard/videos"
 			},
 			"statusCode": 302,
 			"content": ""
 		},
 		"/$": {
 			"headers": {
-				"Location": "/html/list.html"
+				"Location": "/dashboard/videos"
 			},
 			"statusCode": 302,
 			"content": ""
@@ -49,6 +49,11 @@
 				"Content-Type": "text/html; charset=UTF-8"
 			}
 		},
+		"videomaker(.*)": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			}
+		},
 		"/dashboard/([^?]+).*": {
 			"regexLink": "/dashboard/$1",
 			"headers": {
@@ -79,7 +84,7 @@
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"
 			},
-			"content": "<?xml encoding=\"UTF-8\"?><watermarks><watermark style=\"g4s\"/></watermarks>"
+			"content": "<?xml encoding=\"UTF-8\"?><watermarks><watermark style=\"twoLines\"/></watermarks>"
 		},
 		"/api_v2/asset/get": {
 			"headers": {

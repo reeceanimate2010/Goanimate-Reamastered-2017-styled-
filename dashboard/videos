@@ -148,8 +148,8 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
                     </ul>
                 </li>
                 <li>
-				<a class="hidden-sm hidden-md hidden-lg" href="/html/videomaker">Make a Video</a>
-				<span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/html/videomaker">Make a Video</a></span>
+				<a class="hidden-sm hidden-md hidden-lg" href="/html/videomaker.html">Make a Video</a>
+				<span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/html/videomaker.html">Make a Video</a></span>
                 </li>
             </ul>
         </div>
@@ -164,7 +164,7 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
 	    So the preview window, import sidebar, etc is not working at the moment. 
 	    <a href="https://github.com/reeceanimate2010/Goanimate-Reamastered-2017-styled-" target="_blank">GITHUB LINK</a>.
             </div>
-        
+        </div>
 
 <div class="container">
     <div class="page-header">

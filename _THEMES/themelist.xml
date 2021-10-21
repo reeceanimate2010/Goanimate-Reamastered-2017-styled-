@@ -12,13 +12,7 @@
         <theme id="vsfx" name="Visual Effects" thumb="" cc_theme_id="vsfx" />
 	<theme id="action" name="Lil' Peepz" thumb="" cc_theme_id="action" />
 	<theme id="custom" name="Comedy World" thumb="" cc_theme_id="custom" />
-        <theme id="comic" name="Comic Cartoons" thumb="" cc_theme_id="comic" />
-        <theme id="underwater" name="Spongebob Squarepants" thumb="" cc_theme_id="underwater" />
-        <!-- I planned to add 2 themes on goanimate, so i'm gonna ask you guys first -->
-	<!-- What's Comic Cartoons & SpongeBob SquarePants?-->
-	<!--Comic Cartoons Is a Loud House Theme, And SpongeBob SquarePants Is a SpongeBob Theme-->
-	<!--These 2 Themes Are Currently Working On Progress-->
-	<theme id="animal" name="Lil' Petz" thumb="" cc_theme_id="animal" />
+        <theme id="animal" name="Lil' Petz" thumb="" cc_theme_id="animal" />
 	<theme id="politics2" name="White Houserz" thumb="" cc_theme_id="politics2" />
 	<theme id="chibi" name="Chibi Peepz" thumb="" cc_theme_id="chibi" />
 	<theme id="space" name="Space Peepz" thumb="" cc_theme_id="space" />

@@ -43,6 +43,7 @@
 	<theme id="toonadv" name="Toon Adventure" cc_theme_id="cctoonadventure" />
         <theme id="commu" name="Community Library" cc_theme_id="commu" enable="N" />
 	<theme id="common" name="Common" thumb="matchboy-stand.swf" cc_theme_id="common" />
+	<theme id="cal" name="Custom Asset Library" cc_theme_id="cal" enable="N" />
 	<word>mikiko,vikiko</word>
 	<whiteword />
 	<excludeAssetIDs />

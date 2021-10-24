@@ -595,7 +595,7 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
         </div>
 
         <div class="col-md-8 col-md-pull-4">
-            <input type="hidden" name="ct" value="Qyeie+pwtXSZbKSaIcP1NQfIMcSROG8unA0YjztpNNqS+zYMKemmW6gOPcArE7Vg8vtXD3zhpArh8ggfqo00VLx16eR8P58cKp5nh58COXyyP132NVQNALlf7ZJo+mgSJ1BWwEa+UL6dpvV4g_WKrrok4Q0C4ex1yWYjK7faA+31Hh00NWT+AtuRw97PsbjKiQgNg9QpYHwTalNmVZd1AG2yF2Xwp7WBL6PXzDQYs=">
+            <input type="hidden" name="ct" value="Qyeie+pwtXSZbKSaIcP1NQfIMcSROG8unA0YjztpNNqS+zYMKemmW6gOPcArE7Vg8vtXD3zhpArh8ggfqo00VLx16eR8P58cKp5nh58COXyyP132NVQNALlf7ZJo+mgSJ1BWwEa+UL6dpvV4g_WKrrok4Q0C4ex1yWYjK7faA+31Hh00NWT+AtuRw97PsbjKiQgNg9QpYHwTalNmVZd1AG2yF2Xwp7WBL6PXzDQYs=" />
 
 <div class="grid video-listing-grid hide-folders" id="video-listing-grid">
     <div class="video-list-header">
@@ -618,7 +618,7 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
 		<tbody></tbody>
 		<tfoot>
 			<tr>
-				<td colspan="127"></td>
+				<td colspan="127"><a id="load_more" href="javascript:;">Load more of your videos...</a></td>
 			</tr>
 		</tfoot>
 	
@@ -650,13 +650,13 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
 
     </div>
 
-
+</div>
 
 <script type="text/javascript" charset="utf-8">
 var _kiq = _kiq || [];
 _kiq.push(['identify', "devorem248@brayy.com"]);
 </script>
-
+</div>
 
 
 <!-- modals -->
@@ -664,14 +664,14 @@ _kiq.push(['identify', "devorem248@brayy.com"]);
     <div class="modal-dialog">
     <div class="modal-content">
     <div class="modal-header has-back">
-        <button class="close" type="button" data-dismiss="modal" aria-hidden="true">×</button>
+        <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
         <button class="modal-back" title="Back" data-dismiss="modal" aria-hidden="true">&lt;</button>
         <h3 class="modal-title">Video formats comparison</h3>
     </div>
     <div class="modal-body">
 
             <table id="video-comparison-table">
-                <tbody><tr>
+                <tr>
                     <td style="width:50px;"></td>
                     <td style="width:70px;"></td>
                     <td style="width:140px;"><div class="head">360p</div></td>
@@ -735,7 +735,7 @@ _kiq.push(['identify', "devorem248@brayy.com"]);
                     <td>Stereo</td>
                     <td>Stereo</td>
                 </tr>
-            </tbody></table>
+            </table>
     </div>
     <div class="modal-footer">
         <button class="btn btn-default" data-dismiss="modal">Close</button>
@@ -759,7 +759,7 @@ var folderCounts = 0;
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <button class="close" type="button" data-dismiss="modal" aria-hidden="true">×</button>
+                <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <h3 class="modal-title">Subscribe to unlock more features</h3>
             </div>
 
@@ -786,16 +786,16 @@ var folderCounts = 0;
             </div>
 
             <div class="modal-footer">
-                <a class="btn btn-orange" href="https://ga.vyond.com/business/videoplans?hook=preview.site">View Plans &amp; Pricing</a>
+                <a class="btn btn-orange" href="https://ga.vyond.com/business/videoplans?hook=preview.site">View Plans & Pricing</a>
             </div>
         </div>
     </div>
 </div>
-<div id="trial-expired-overlay" class="modal" role="dialog" aria-hidden="true">
+<div id="trial-expired-overlay" class="modal" id="normal-modal" role="dialog" aria-hidden="true">
     <div class="modal-dialog" style="left: auto;margin-right: auto;margin-left: auto;">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                 <h3 class="modal-title">
                     Your free trial has ended!                </h3>
             </div>
@@ -803,7 +803,7 @@ var folderCounts = 0;
                 <img style="width: 100%;" src="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/img/trial/expired.png" alt="">
             </div>
             <div class="modal-footer">
-                <a class="btn btn-orange" href="https://www.vyond.com/pricing">View Plans &amp; Pricing</a>
+                <a class="btn btn-orange" href="https://www.vyond.com/pricing">View Plans & Pricing</a>
             </div>
         </div>
     </div>
@@ -813,11 +813,14 @@ var folderCounts = 0;
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h3 class="modal-title">Before You Head To Vyond Studio</h3>
             </div>
             <div class="modal-body">
-                <img class="center-block img-responsive" src="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/img/vm5_alpha/video_copy.png" srcset="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/img/vm5_alpha/video_copy.png 1x, https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/img/vm5_alpha/video_copy_2x.png 2x"><br>
+                <img class="center-block img-responsive"
+                    src="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/img/vm5_alpha/video_copy.png"
+                    srcset="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/img/vm5_alpha/video_copy.png 1x, https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/img/vm5_alpha/video_copy_2x.png 2x"
+                ><br>
                 <p>
                     There may be content in this video that is not compatible with Vyond Studio (e.g. imported videos, PPT files, retired content, retired music).                </p>
                 <p>
@@ -902,8 +905,7 @@ var folderCounts = 0;
                     </div>
                 </div>
             </div>
-        </div><script type="text/javascript" id="">var _vyccq=window._vyccq||[];</script>
-<script type="text/javascript" id="" src="https://app.vyond.com/v2/cookies/consent"></script>
+        </div>
 
 
 <div id="studio_container" style="display: none;">
@@ -914,7 +916,7 @@ var folderCounts = 0;
     </div>
 </div>
 
-
+</div>
 <!-- END OF PAGE STRUCTURE -->
 
 
@@ -1142,16 +1144,5 @@ var json;
 		}
 
 </style>
-
-
-
-
-<iframe data-product="web_widget" title="No content" tabindex="-1" aria-hidden="true" src="about:blank" style="width: 0px; height: 0px; border: 0px; position: absolute; top: -9999px;" data-ruffle-polyfilled=""></iframe>
-<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","//connect.facebook.net/en_US/fbevents.js");fbq("init","784667875001149");fbq("track","PageView");</script>
-<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=784667875001149&amp;ev=PageView&amp;noscript=1"></noscript>
-<script type="text/javascript" id="">(function(){function b(a,b,d){document.cookie=a+"\x3d"+escape(b)+"; path\x3d/; max-age\x3d"+d+";"}function g(a){return(a=document.cookie.match("(^|;) ?"+a+"\x3d([^;]*)(;|$)"))?unescape(a[2]):null}var c=5,h=900;window.addEventListener("load",function(){var a=document.referrer,c=g("gasessid");""===a&&(a=g("lasturl"));if((""===a||null===c)&&"undefined"!==typeof ga){a=new Date;try{var d=ga.getAll();a=new Date;var e=d[0].get("clientId");var f=e+"."+a.getTime();ga("set","dimension1",e);ga("set","dimension2",
-f);dataLayer.push({GAClientId:e,GASessionId:f});b("gasessid",f,h)}catch(k){}}});window.addEventListener("beforeunload",function(){b("lasturl",window.location.href,c)});window.addEventListener("unload",function(){b("lasturl",window.location.href,c)})})();</script><script type="text/javascript" id="">(function(e,c){function k(a,g){a.prototype[g]=function(){this._q.push([g].concat(Array.prototype.slice.call(arguments,0)));return this}}function l(a){function g(m){a[m]=function(){a._q.push([m].concat(Array.prototype.slice.call(arguments,0)))}}for(var h=0;h<n.length;h++)g(n[h])}var d=e.amplitude||{_q:[],_iq:{}},b=c.createElement("script");b.type="text/javascript";b.integrity="sha384-girahbTbYZ9tT03PWWj0mEVgyxtZoyDF9KVZdL+R53PP5wCY0PiVUKq0jeRlMx9M";b.crossOrigin="anonymous";b.async=!0;b.src="https://cdn.amplitude.com/libs/amplitude-7.2.1-min.gz.js";
-b.onload=function(){e.amplitude.runQueuedFunctions||console.log("[Amplitude] Error: could not load SDK")};c=c.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c);b=function(){this._q=[];return this};c="add append clearAll prepend set setOnce unset".split(" ");for(var f=0;f<c.length;f++)k(b,c[f]);d.Identify=b;b=function(){this._q=[];return this};c=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"];for(f=0;f<c.length;f++)k(b,c[f]);d.Revenue=b;var n="init logEvent logRevenue setUserId setUserProperties setOptOut setVersionName setDomain setDeviceId enableTracking setGlobalUserProperties identify clearUserProperties setGroup logRevenueV2 regenerateDeviceId groupIdentify onInit logEventWithTimestamp logEventWithGroups setSessionId resetSessionId".split(" ");
-l(d);d.getInstance=function(a){a=(a&&0!==a.length?a:"$default_instance").toLowerCase();d._iq.hasOwnProperty(a)||(d._iq[a]={_q:[]},l(d._iq[a]));return d._iq[a]};e.amplitude=d})(window,document);
-amplitude.getInstance().init(google_tag_manager["GTM-TXV7MD"].macro(7),google_tag_manager["GTM-TXV7MD"].macro(8),{apiEndpoint:"api2.amplitude.com",includeUtm:!0,includeReferrer:!0},function(e){window.dispatchEvent(new Event("amplitude_loaded"));window.location.hostname.startsWith("app.")&&(e=e.options.deviceId,document.cookie="amp_device_id\x3d"+e+";path\x3d/;domain\x3dvyond.com")});1==google_tag_manager["GTM-TXV7MD"].macro(9)&&amplitude.getInstance("VideoAsUnit").init(google_tag_manager["GTM-TXV7MD"].macro(10),null,{apiEndpoint:"api2.amplitude.com"},function(){window.dispatchEvent(new Event("amplitude_loaded:VideoAsUnit"))});</script><script type="text/javascript" id="">amplitude.getInstance().logEvent("Page view",{page_url:window.location.toString(),referral:document.referrer});</script><script type="text/javascript" id="">var _kiq=_kiq||[];(function(){var a=document,b=a.getElementsByTagName("script")[0];a=a.createElement("script");a.type="text/javascript";a.async=!0;a.src="\/\/s3.amazonaws.com\/j.kissinsights.com\/u\/364\/b6218934c79aae40781124b6cfd94df4d8f23b98.js";b.parentNode.insertBefore(a,b)})();</script><script type="text/javascript" id="">piAId="715453";piCId="3286";piHostname="pi.pardot.com";(function(){function a(){var b=document.createElement("script");b.type="text/javascript";b.src=("https:"==document.location.protocol?"https://pi":"http://cdn")+".pardot.com/pd.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)}window.attachEvent?window.attachEvent("onload",a):window.addEventListener("load",a,!1)})();</script><script type="text/javascript" id="">tp=window.tp||[];tp.push(["setAid",google_tag_manager["GTM-TXV7MD"].macro(11)]);tp.push(["setSandbox",1!=google_tag_manager["GTM-TXV7MD"].macro(12)]);tp.push(["setUseTinypassAccounts",!1]);tp.push(["setUsePianoIdUserProvider",!1]);tp.push(["setUsePianoIdLiteUserProvider",!0]);tp.push(["setCxenseSiteId","1140862806177409904"]);tp.push(["setExternalJWT",google_tag_manager["GTM-TXV7MD"].macro(13)]);tp.push(["init",function(){tp.experience.init()}]);
-(function(a){var b=document.createElement("script");b.type="text/javascript";b.async=!0;b.src=a;a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)})("//cdn.tinypass.com/api/tinypass.min.js");</script><div><iframe title="Opens a widget where you can find more information" id="launcher" tabindex="-1" style="width: 108px; height: 50px; padding: 0px; margin: 10px 20px; position: fixed; bottom: 30px; overflow: visible; opacity: 0; border: 0px; z-index: 999998; transition-duration: 250ms; transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1); transition-property: opacity, top, bottom; top: -9999px; visibility: hidden;" data-ruffle-polyfilled=""></iframe></div><script src="https://analytics.twitter.com/i/adsct?type=javascript&amp;version=2.0.4&amp;p_id=Twitter&amp;p_user_id=0&amp;txn_id=o4a09&amp;events=%5B%5B%22pageview%22%2Cnull%5D%5D&amp;tw_sale_amount=0&amp;tw_order_quantity=0&amp;tw_iframe_status=0&amp;event_id=ba8f750c-f2c0-407b-bdb2-cfc695c45f26&amp;tw_document_href=https%3A%2F%2Fgareamastered2017.herokuapp.com%2Fdashboard%2Fvideos&amp;tpx_cb=twttr.conversion.loadPixels" type="text/javascript"></script><iframe id="qualaroo_dnt_frame" src="//dntcl.qualaroo.com/frame.html" style="width: 1px; height: 1px; display: none; opacity: 0;" data-ruffle-polyfilled=""></iframe></body><script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/956549168/?random=1634676058031&amp;cv=9&amp;fst=1634676058031&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_his=1&amp;u_tz=-240&amp;u_java=false&amp;u_nplug=7&amp;u_nmime=10&amp;gtm=2wgai0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fgareamastered2017.herokuapp.com%2Fdashboard%2Fvideos&amp;ref=https%3A%2F%2Fdashboard.heroku.com%2F&amp;tiba=Your%20Videos%20on%20GoAnimate%20Reamastered&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script></html>
+</body>
+</html>

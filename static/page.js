@@ -131,8 +131,8 @@ module.exports = function (req, res, url) {
                     </ul>
                 </li>
                 <li>
-				<a class="hidden-sm hidden-md hidden-lg" href="/v/videomaker">Make a Video</a>
-				<span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/v/videomaker">Make a Video</a></span>
+				<a class="hidden-sm hidden-md hidden-lg" href="/html/videomaker.html">Make a Video</a>
+				<span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/html/videomaker.html">Make a Video</a></span>
                 </li>
             </ul>
         </div>
